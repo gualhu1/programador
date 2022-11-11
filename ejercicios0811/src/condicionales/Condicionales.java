@@ -17,22 +17,24 @@ public class Condicionales {
     public void e3(){
         
     }
+
+    
     public String e4()
     {
-        int numero;
-        Scanner teclado = new Scanner( System.in);
         System.out.println("Introduzca un numero");
-        numero = teclado.nextInt();
+        int numero = sc.nextInt();
         if ( numero % 2 == 0)
         { 
-            System.out.print( "ES PAR");
-
+            return "es par";
+            
         }
         else 
         {
-            System.out.print( "ES IMPAR");
+            return "no es par";
         }   
     }
+
+
     public void e5(){
         
     }
